@@ -31,6 +31,7 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: './public/CNAME'
+        destination_branch: 'master'
         user_email: 'matthewcheung520@hotmail.com'
         user_name: 'mcpwns'
         commit_message: 'Adding custom domain'
