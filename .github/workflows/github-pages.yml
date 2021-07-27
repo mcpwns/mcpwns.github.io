@@ -25,3 +25,12 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'master'
         jekyll_src: 'my-site'
+    - name: Pushes test file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: './public/CNAME'
+        user_email: 'matthewcheung520@hotmail.com'
+        user_name: 'mcpwns'
+        commit_message: 'Adding custom domain'
