@@ -29,6 +29,8 @@ github_username:  mcpwns
 
 # Build settings
 theme: minima
+minima:
+  skin: solarized-dark
 plugins:
   - jekyll-feed
 
