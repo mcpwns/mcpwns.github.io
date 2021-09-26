@@ -4,5 +4,5 @@
 
 layout: default
 ---
-See my [Blog](/blog/)!!!
+Check out my [Blog](/blog/)!!!
 
