@@ -5,4 +5,16 @@
 @import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
 @import "minima/initialize";
 
+.p-rank {
+	text-decoration: underline;
+	text-decoration-thickness: 6%;
+}
+
+.post-content h2 {
+	font-size: 1.75rem
+}
+
+.post-link-header {
+	margin-bottom: 0px;
+}
 // my custom CSS rules that override Minima's rules here

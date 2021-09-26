@@ -1,0 +1,16 @@
+---
+layout: review
+title:  "Space Jam 2"
+date:   2021-09-26
+permalink: /spacejam2/
+storyRank: 1
+actingRank: 1.5
+visualsRank: 2
+enjoymentRank: 1.5
+---
+
+<h2 class="post-story-rank p-rank" itemprop="rank">Story: {{page.storyRank}}/2.5</h2>
+<h2 class="post-acting-rank p-rank" itemprop="rank">Acting: {{page.actingRank}}/2.5</h2>
+<h2 class="post-visuals-rank p-rank" itemprop="rank">Visuals: {{page.visualsRank}}/2.5</h2>
+<h2 class="post-enjoyment-rank p-rank" itemprop="rank">Enjoyment: {{page.enjoymentRank}}/2.5</h2>
+<h2 class="post-total p-rank" itemprop="rank">Total: {{ page.storyRank | plus: page.actingRank | plus: page.visualsRank | plus: page.enjoymentRank}}/10</h2>
