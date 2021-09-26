@@ -31,6 +31,13 @@ github_username:  mcpwns
 theme: minima
 minima:
   skin: solarized-dark
+  social_links:
+    twitter: MattHatter_52
+    linkedin: matthew-cheung-b545034a
+    instagram: mcpwns
+    github: mcpwns
+    facebook: MatttCheung
+    youtube_channel: UCx5OWwewtnXYyPaZt4RiJ0g 
 plugins:
   - jekyll-feed
 
