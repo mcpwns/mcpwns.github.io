@@ -5,13 +5,18 @@
 @import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
 @import "minima/initialize";
 
-.p-rank {
+.underline {
 	text-decoration: underline;
 	text-decoration-thickness: 6%;
 }
 
 .post-content h2 {
-	font-size: 1.75rem
+	font-size: 1.5rem;
+}
+
+.post-content h2.post-total {
+	font-size: 1.75rem;
+	font-weight: 1000;
 }
 
 .post-link-header {

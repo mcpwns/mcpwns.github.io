@@ -6,14 +6,21 @@ permalink: /spacejam2/
 storyRank: 1
 actingRank: 1.5
 visualsRank: 2
-enjoymentRank: 1.5
+enjoymentRank: 1
 excerpt: "Space Jam 2 is dumb af"
 ---
 
-<h2 class="post-story-rank p-rank" itemprop="rank">Story: {{page.storyRank}}/2.5</h2>
-Space Jam 2 is dumb af. My main issue with Space Jam 2 is how stupid it was that the entire world would be saved by a basketball game... I get it, its a basketball movie so obviously its gonna have basketball but bruh. This AI has the power to literally steal people's souls and bring them into his virtual world and control them basically and he's like "Aight if you win in bball I won't delete you and erase your memory that you won."
-<h2 class="post-acting-rank p-rank" itemprop="rank">Acting: {{page.actingRank}}/2.5</h2>
-<h2 class="post-visuals-rank p-rank" itemprop="rank">Visuals: {{page.visualsRank}}/2.5</h2>
-<h2 class="post-enjoyment-rank p-rank" itemprop="rank">Enjoyment: {{page.enjoymentRank}}/2.5</h2>
-<h2 class="post-total p-rank" itemprop="rank">Total: {{ page.storyRank | plus: page.actingRank | plus: page.visualsRank | plus: page.enjoymentRank}}/10</h2>
+<h2 class="post-story-rank p-rank underline" itemprop="rank">Story: {{page.storyRank}}/2.5</h2>
+Space Jam 2 is dumb af. My main issue with Space Jam 2 is how stupid it was that the entire world would be saved by a basketball game... I get it, its a basketball movie so obviously its gonna have basketball but bruh. This AI has the power to literally steal people's souls and bring them into his virtual world and control them and he's like "Aight if you win in bball I won't delete you and erase your memory that you won."
+
+Also, how the f\*\*k did the point system work? That really bothered me because they be doing the most ridiculous stuff and yet they scoring a ton??
+<h2 class="post-acting-rank p-rank underline" itemprop="rank">Acting: {{page.actingRank}}/2.5</h2>
+Not gonna lie I was surprised by Lebron's acting. He definitely wasn't good, but he wasn't as bad as I expected him to be like most athletes. 
+<h2 class="post-visuals-rank p-rank underline" itemprop="rank">Visuals: {{page.visualsRank}}/2.5</h2>
+The visual effects in Space Jam 2 were the highlight for me. I enjoyed the 3d version of the Tune Squad because they looked decently believable. The "final battle" was visually pleasing. The music was also a highlight in this movie and I love that studios are making albums like this for movies. If you haven't heard [*Just For Me (feat. SZA)*](https://www.youtube.com/watch?v=ehrER-GHJLs){:target="_blank"} then please do your ears the pleasure and give it a listen. 
+<h2 class="post-enjoyment-rank p-rank underline" itemprop="rank">Enjoyment: {{page.enjoymentRank}}/2.5</h2>
+First the bad. There were way too many references/memes. It was as if they were just forceably shoving memes in my face. Every other sentence was a reference or a meme that was so over the top and corny. The movie also felt way longer than the runtime it had of 1hr 55min.
+
+Now the good. There were some good references/memes. I did laugh at some of the memes (honestly given how many they were throwing I had to laugh at some of them).  
+<h2 class="post-total p-rank underline" itemprop="rank">Total: {{ page.storyRank | plus: page.actingRank | plus: page.visualsRank | plus: page.enjoymentRank}}/10</h2>
 
